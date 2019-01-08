@@ -1,0 +1,397 @@
+/*Footer css*/
+.cntFoo {
+    width: 100%;
+    float: left;
+}
+#s4-workspace {
+    margin-top: 0px;
+    }
+
+.header-full header {
+height: 166px;
+}
+
+.cntFoo * {
+    font-family: arial ,sans-serif !important;
+    box-sizing: border-box;
+}
+.detFoot4.cntFoo .content-f p a {
+    color: #fff;
+}
+
+@media screen and (max-width: 1280px) {
+   .footer .cntFoo .content-f {
+    width: 960px;
+}
+}
+
+.cntFoo .content-f {
+    width: 1200px;
+    margin: auto;
+    padding: 10px 0;
+    overflow: hidden;
+} 
+
+.detFoot1.cntFoo {
+    background: #9ea2a3;
+}
+
+.detFoot2.cntFoo {
+    background: #70726f;
+}
+
+.detFoot3.cntFoo {
+    background: #fff;
+}
+
+.detFoot4.cntFoo {
+    background: #9ea2a3;
+}
+
+.detFoot1.cntFoo p, .detFoot1.cntFoo a {
+    color: #fff;
+}
+
+.detFoot1.cntFoo p {
+    font-size: 14px;
+    float: left;
+}
+
+.detFoot1.cntFoo ul {
+    float: right;
+}
+
+.detFoot1.cntFoo ul li {
+    float: left;
+    list-style-type: none;
+}
+
+.detFoot1.cntFoo ul li a {
+    padding: 2px 10px;
+    font-size: 13px;
+    border-left: 1px solid #ccc;
+    text-decoration: none;
+}
+
+.detFoot1.cntFoo ul li:first-child a {
+    border-left: none;
+}
+
+.detFoot1.cntFoo p span {
+    font-weight: bold;
+}
+
+.cntFoo .content-f .cont-ul {
+    padding: 0 12px;
+    display: table-cell;
+}
+.cntFoo .content-f > .cont-ul-gen > a {
+    float: left;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.cntFoo .content-f > .cont-ul-gen {
+    display: block;
+    float: left;
+}
+
+.cont-ul-gen.social {
+    width: 22%;
+}
+
+.cont-ul-gen.los-ul {
+    width: 78%;
+}
+
+.cont-ul-gen.los-ul .cont-te {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.cont-ul-gen.los-ul .cont-te a {
+    color: #fff;
+    font-size: 12px;
+    padding: 0 0 5px 0px;
+    float: left;
+    width: 100%;
+    text-decoration: none;
+    font-family: arial !important;
+}
+
+.cont-ul-gen.los-ul .cont-te li {
+    list-style-type: none;
+}
+
+.cont-ul-gen.los-ul .cont-te h1 {
+    font-size: 16px !important;
+    color: #fff !important;
+    font-weight: bold !important;
+}
+
+.cont-ul-gen.los-ul .cont-te a:before {
+    content: "\2022 \0020";
+    float: left;
+    padding: 0 6px 1px 0;
+}
+
+.detFoot3.cntFoo .content-f > a {
+    float: left;
+}
+
+.detFoot3.cntFoo .content-f > img {
+    width: 100px;
+}
+
+.detFoot3.cntFoo .content-f p {
+    font-size: 14px;
+    color: #333;
+    vertical-align: middle;
+    display: table-cell;
+    font-weight: bold;
+    text-align: center;
+}
+
+.detFoot3.cntFoo .content-f {
+    display: table;
+    padding: 0;
+}
+
+.detFoot3.cntFoo .content-f p a {
+    color: #333;
+    text-decoration: underline;
+}
+
+.detFoot4.cntFoo ul {
+    width: auto;
+    display: inline-block;
+    overflow: hidden;
+    text-align: center;
+    margin: auto;
+}
+
+.detFoot4.cntFoo li {
+    float: left;
+    list-style-type: none;
+}
+
+.detFoot4.cntFoo li a {
+    color: #fff;
+    font-size: 12px;
+    border-left: 1px solid #ccc;
+    padding: 2px 10px;
+}
+
+.detFoot4.cntFoo li:first-child a {
+    border-left: none;
+}
+
+.detFoot4.cntFoo .content-f {
+    text-align: center;
+    position: relative;
+    padding: 10px 95px;
+}
+
+.detFoot4.cntFoo .content-f p {
+    color: #fff;
+}
+
+.detFoot2.cntFoo .content-f {
+    padding: 20px 0;
+}
+
+.detFoot4.cntFoo .content-f .verisign {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    height: 44px;
+    margin: auto;
+}
+
+.detFoot4.cntFoo .content-f .verisign img {
+    width: 85px;
+}
+
+.cntFoo .content-f > .cont-ul-gen .cont-red a {
+    float: left;
+    width: 25%;
+}
+.footer {
+    display: block;
+    float: left;
+    width: 100%;
+}
+.cont-foot {
+    float: left;
+    width: 100%;
+    display: block;
+}
+.cntFoo .content-f > .cont-ul-gen .cont-red a img {
+}
+/*TABLET*/
+@media screen and (max-width: 960px) {
+    .footer .cntFoo .content-f {
+    width: 100%;
+    padding: 10px 15px;
+}
+
+.detFoot2.cntFoo .content-f {
+    padding: 20px 15px;
+}
+
+.cont-ul-gen.social {
+    padding: 0 10px 0 0;
+    width: 24%;
+}
+
+.cntFoo .content-f > .cont-ul-gen > a img {
+    width: 100%;
+}
+
+.detFoot3.cntFoo .content-f {
+    padding: 0 15px;
+}
+
+.cont-ul-gen.los-ul {
+    width: 76%;
+}
+
+.detFoot1.cntFoo p {
+ font-size: 13px;
+ width: 100%;
+ padding: 0 0 5px 0;
+ margin: 0 0 8px 0;
+ border-bottom: 1px dotted #ccc;
+ text-align:center;
+}
+
+.detFoot1.cntFoo ul {
+display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    }
+
+.detFoot1.cntFoo p span {
+    
+}
+
+.detFoot1.cntFoo ul li a {
+    font-size: 12px;
+}
+
+.cont-ul-gen.los-ul .cont-te h1 {
+    font-size: 15px !important;
+}
+
+.cont-ul-gen.los-ul .cont-te a {
+    font-size: 11px;
+}
+
+.detFoot3.cntFoo .content-f p {
+    font-size: 12px;
+}
+}
+/*MOBILE*/
+@media screen and (max-width: 760px) {
+    .detFoot1.cntFoo ul li:first-child a {
+    padding-left: 0;
+}
+.cntFoo .verisign {
+    display: none;
+}
+.detFoot1.cntFoo ul li a {
+    margin-bottom: 3px;
+    float: left;
+    font-size: 13px;
+}
+
+.detFoot1.cntFoo p span {
+    clear: both;
+    display: block;
+}
+
+.detFoot1.cntFoo p {
+  
+   
+}
+
+.cntFoo .content-f > .cont-ul-gen {
+    width: 100%;
+    padding: 0;
+}
+
+.cntFoo .content-f > .cont-ul-gen > a {display: none;}
+
+.cont-red {
+    width: 100%;
+    float: left;
+    margin: 0 0 10px 0;
+}
+
+.cntFoo .content-f > .cont-ul-gen .cont-red a {
+    text-align: center;
+}
+
+.cont-ul-gen.los-ul .cont-te {
+    flex-direction: column;
+}
+.detFoot1.cntFoo .content-f {
+    padding-bottom: 5px;
+}
+
+.cont-ul-gen.los-ul .cont-te h1 {
+    margin: 0px 0 14px 0 !important;
+    font-weight: bold !important;
+}
+
+.cntFoo .content-f .cont-ul {
+    padding: 20px 0 0;
+}
+
+.detFoot3.cntFoo .content-f > a {
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+
+.detFoot3.cntFoo .content-f {
+    display: block;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.detFoot4.cntFoo .content-f .verisign {
+    display: none;
+}
+
+.detFoot4.cntFoo .content-f {
+    padding: 10px 15px;
+}
+
+.detFoot4.cntFoo .content-f p {
+    padding-top: 15px;
+}
+
+.detFoot4.cntFoo li:first-child a {
+    padding-left: 0;
+}
+
+.detFoot4.cntFoo li a {padding: 2px 6px;}
+
+.detFoot4.cntFoo li {
+    float: none;
+    display: inherit;
+    margin-bottom: 5px;
+}
+
+.detFoot1.cntFoo ul li:last-child a {
+    /* border-right: 1px solid #ccc; */
+}
+
+.cont-ul-gen.los-ul .cont-te a {
+    font-size: 13px;
+    padding: 0 0 6px 0px;
+}
+    }

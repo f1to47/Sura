@@ -1,0 +1,15 @@
+userlike.userlikeCallbackButtonCheck({
+    "available": [
+        {
+            "id": 113449,
+            "name": "Default",
+            "first": {
+                "url_image": "https://userlike-cdn-operators.s3-eu-west-1.amazonaws.com/de6e917e341ddfeef70740bc45f72815963cad6b45acfefc7556b81f495f5a5b_80x80.jpg",
+                "id": 59531,
+                "name": "Camila"
+            }
+        }
+    ],
+    "in_service_time": true,
+    "message": "GROUP_ONLINE"
+})

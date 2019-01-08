@@ -1,0 +1,262 @@
+
+.fancybox-lightbox-antecedentes {
+    display: inline-block !important;
+    position: absolute !important;
+    top: 50% !important;
+    left: 50% !important;
+    transform: translate(-50%, -50%) !important;
+    width: auto !important;
+    height: auto !important;
+}
+
+    .fancybox-lightbox-antecedentes > .fancybox-skin {
+        padding: 0px !important;
+    }
+
+        .fancybox-lightbox-antecedentes > .fancybox-skin > .fancybox-outer > .fancybox-inner {
+            width: 100% !important;
+            overflow: hidden !important;
+        }
+
+div[id*='actAntecedentesLightbox'] {
+    margin-top: 20px;
+}
+
+
+div[class*="modal-act-antecedentes"] {
+    max-width: 700px;
+    width: 600px !important;
+    height: 375px !important;
+    padding: 15px !important;
+    background: #54C2D9 !important;
+}
+
+    div[class*="modal-act-antecedentes"] input {
+        font-family: Helvetica, sans-serif !important;
+        display: block !important;
+        margin: 0 auto;
+        width: 80% !important;
+        background: #FFFFFF !important;
+        box-shadow: inset 1px 1px 3px 0 rgba(69,69,69,0.50) !important;
+        border-radius: 8px;
+        height: 56px;
+        border: none;
+    }
+
+    div[class*="modal-act-antecedentes"] h3 {
+        font-family: Helvetica, sans-serif !important;
+        font-size: 28px !important;
+        font-weight: 300 !important;
+        color: #FFFFFF !important;
+        letter-spacing: 0.32px !important;
+        text-align: center !important;
+        line-height: 34px;
+        margin-top: -20px;
+    }
+
+    div[class*="modal-act-antecedentes"] .input-text {
+        font-family: Helvetica, sans-serif;
+        font-size: 25px;
+        color: #666666;
+        letter-spacing: 0.31px;
+        text-align: left;
+        width: 100%;
+        padding: 0 0 0 15px;
+        font-weight: 300;
+    }
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #9999;
+    opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #9999;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+    color: #9999;
+}
+
+div[class*="modal-act-antecedentes"] a.enviar-btn {
+    background: #F7E805;
+    font-family: Helvetica, sans-serif;
+    font-size: 24px;
+    color: #2C5970;
+    letter-spacing: 0.32px;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+    text-decoration: none;
+    width: auto;
+    padding: 10px;
+    margin: 10px;
+    background: #f6ea1c;
+}
+
+div[class*="modal-act-antecedentes"] .cerrar-link {
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    font-weight: 300;
+    color: #FFFFFF;
+    letter-spacing: 0.32px;
+    text-align: center;
+    cursor: pointer;
+    margin: 0 10px;
+    text-decoration: underline;
+}
+
+    div[class*="modal-act-antecedentes"] .cerrar-link :hover {
+        color: #FFFFFF;
+    }
+
+div[class*="modal-act-antecedentes"] .box-izq {
+    width: 10%;
+    height: 50px;
+    position: relative;
+    float: left;
+}
+
+div[class*="modal-act-antecedentes"] .box-der {
+    width: 80%;
+    position: relative;
+    float: left;
+}
+
+div[class*="modal-act-antecedentes"] .box-full {
+    display: inline-block;
+    margin-bottom: 20px;
+    width: 100%;
+    /*margin: 10px;*/
+}
+
+
+.actions {
+    text-align: center;
+    height: 50px !important;
+    padding-top: 25px;
+}
+
+.form-actualizar-datos {
+    padding: 0 20px;
+}
+
+.cerrar-icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #fff;
+    cursor: pointer;
+}
+
+div[class*="modal-act-antecedentes"] .error-text-gen {
+    color: #4c4a4a;
+    font-weight: bold;
+    display: inline-block;
+    font-size: 15px;
+    margin-top: 5px;
+    margin-left: 45px;
+    position: absolute;
+}
+
+@media screen and (max-width: 640px) {
+
+    div[class*="modal-act-antecedentes"] {
+        max-width: 700px;
+        width: 300px !important;
+        height: 265px !important;
+        padding: 15px !important;
+        background: #54C2D9 !important;
+    }
+
+    div[id*='actAntecedentesLightbox'] {
+        margin-top: 0px;
+    }
+
+    div[class*="modal-act-antecedentes"] .box-full {
+        display: inline-block;
+        margin-bottom: 0px;
+        width: 100%;
+        /* margin: 10px; */
+    }
+
+    div[class*="modal-act-antecedentes"] h3 {
+        font-size: 18px !important;
+        padding-bottom: 0px !important;
+        line-height: 20px;
+        margin: 0px 0px;
+    }
+
+    div[class*="modal-act-antecedentes"] .input-text {
+        font-family: Helvetica, sans-serif;
+        font-size: 14px;
+        color: #666666;
+        letter-spacing: 0.31px;
+        text-align: left;
+        width: 100%;
+        padding: 0 0 0 15px;
+        font-weight: 200;
+    }
+
+    div[class*="modal-act-antecedentes"] input {
+        font-family: Helvetica, sans-serif !important;
+        display: block !important;
+        margin: 0 auto;
+        width: 90% !important;
+        background: #FFFFFF !important;
+        box-shadow: inset 1px 1px 3px 0 rgba(69,69,69,0.50) !important;
+        border-radius: 8px;
+        height: 35px;
+        border: none;
+    }
+
+    div[class*="modal-act-antecedentes"] a.enviar-btn {
+        background: #F7E805;
+        font-family: Helvetica, sans-serif;
+        font-size: 20px;
+        color: #2C5970;
+        letter-spacing: 0.32px;
+        text-align: center;
+        cursor: pointer;
+        border: none;
+        text-decoration: none;
+        height: 15px;
+        padding-top: 12px;
+        display: inline-block;
+        background: #f6ea1c;
+    }
+
+    div[class*="modal-act-antecedentes"] .error-text-gen {
+        color: #4c4a4a;
+        font-weight: bold;
+        display: inline-block;
+        font-size: 12px;
+        margin-top: 1px;
+        margin-left: 8px;
+        position: absolute;
+    }
+
+    div[class*="modal-act-antecedentes"] .cerrar-link {
+        display: none;
+    }
+
+    .actions {
+        padding-top: 0px;
+    }
+
+    .box-lightbox {
+        width: 90%;
+    }
+
+    .form-actualizar-datos .input-text {
+        font-size: 18px;
+    }
+
+    .cerrar-link {
+        font-size: 14px;
+    }
+
+    input.enviar-btn {
+        font-size: 19px;
+    }
+}

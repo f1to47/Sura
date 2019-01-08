@@ -1,0 +1,43 @@
+$(".panel-heading").click(function(){
+    if(!$(this).hasClass("active")) {
+        $(".collapse").removeClass("in").hide();
+        $(".panel-heading").removeClass("active");
+        
+        $(this).parent().find(".collapse").slideDown();
+        $(this).parent().find(".collapse").addClass("in");
+        $(this).addClass("active");
+    }
+    else {
+        $(".collapse").removeClass("in").hide();
+        $(".panel-heading").removeClass("active");        
+    }
+});
+
+//var prm = Sys.WebForms.PageRequestManager.getInstance();
+
+//prm.add_pageLoaded(function () {
+//    $(".panel-default > .panel-heading").click(function () {
+//        Activa($(this).parent());
+//    });
+//});
+
+function Activa(Objeto) {
+
+    var Estado = $(Objeto).find(".panel-heading").hasClass("active");
+    if ($('form').find("[id*=collapse2]").hasClass("collapsein")) {
+        $('form').find("[id*=collapse2]").removeClass("collapsein");
+        $('form').find("[id*=collapse2]").addClass("collapseout");
+    }
+
+    $('form').find(".panel-heading").removeClass("active");
+
+    if (Estado == false) {
+        $(Objeto).find(".panel-heading").addClass("active");
+        $(Objeto).find("[id*=collapse2]").removeClass("collapseout");
+        $(Objeto).find("[id*=collapse2]").addClass("collapsein");
+    }
+    else {
+        $(Objeto).find("[id*=collapse2]").addClass("collapseout");
+        $(Objeto).find("[id*=collapse2]").removeClass("collapsein");
+    }
+}

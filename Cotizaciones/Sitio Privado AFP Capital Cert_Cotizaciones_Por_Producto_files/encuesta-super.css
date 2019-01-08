@@ -1,0 +1,161 @@
+﻿@media only screen and (min-width: 760px) {
+
+	.cont_izq_20 {
+	    float: left;
+	    width: 20%;
+	}
+	
+	.cont_izq_20 .ms-webpart-zone.ms-SPZone {
+	    width: 100%;
+	}
+
+	.cont_der_80 {
+	    float: left;
+	    width: 80%;
+	}
+	
+	.cont_der_80 .ms-webpart-zone.ms-SPZone {
+	    width: 100%;
+	}
+	
+	.cont_der_20 {
+	    float: left;
+	    width: 20%;
+	}
+	
+	.cont_der_20 .ms-webpart-zone.ms-SPZone {
+	    width: 100%;
+	}
+	
+	.cont_izq_80 {
+	    float: left;
+	    width: 80%;
+	}
+	
+	.cont_izq_80 .ms-webpart-zone.ms-SPZone {
+	    width: 100%;
+	}
+
+
+}
+
+
+.contenedor-encuesta {
+    width: 100%;
+    background: #EFEEEE !important;
+    height: 70px;
+	float: left;
+	border-top: thin solid #999999
+}
+.sub-contenedor-encuesta {
+    width: 90%;
+    margin: 0 auto 0 10%;
+ }
+.logo-super {
+    float: left;
+}
+.logo-super img {
+    display: block;
+    width: 125px;
+    height: 70px;
+    }
+.texto-encuesta {
+    float: left;
+    color: #6C6D6D;
+    font-family: "trebuchet ms", helvetica;
+    font-size: 12pt;
+    line-height: 24px;
+    width: 79%;
+    background: #EFEEEE !important;
+    padding: 25px 0 0 30px;
+}
+.link_celeste {
+    color: rgb(0, 177, 202) !important;
+    text-decoration: underline !important;
+}
+@media only screen and (max-width: 960px) {
+    .logo-super {
+        float: left;
+        width: 20%;
+        background: #EFEEEE !important;
+        padding: 4px 0 0 88px;
+    }
+    .sub-contenedor-encuesta {
+        width: 100%;
+        margin: 0 auto;
+    }
+	.logo-super img {
+	    display: block;
+	    width: 115px;
+	    height: 62px;
+	    	    }
+    
+    .texto-encuesta {
+	    float: left;
+	    font-size: 12px;
+	    width: 65%;
+	    padding: 12px 0 30px 0;
+	    max-height: 30px;	    
+	    /* text-align: center; */    }
+}
+@media only screen and (max-width: 760px) {
+    .contenedor-encuesta {
+        width: 100%;
+        background: #EFEEEE !important;
+        height: 170px;
+        border-top: thin solid #999999
+    }
+    .logo-super {
+	    float: none;
+	    text-align: center;
+	    margin-left: 25%;
+    }
+    .sub-contenedor-encuesta {
+	    width: 100%;
+	    margin: 0 auto 0 35px;
+    }
+    .texto-encuesta {
+        font-size: 13px;
+        width: 80%;
+    	padding: 10px 0 30px 35px;
+        text-align: center;
+        float: none;
+    }
+}
+@media only screen and (max-width: 420px) {
+    .contenedor-encuesta {
+        width: 100%;
+        background: #EFEEEE !important;
+        height: 170px;
+        border-top: thin solid #999999
+    }
+    .logo-super {
+        width: 100%;
+        background: #EFEEEE !important;
+        float: none;
+        margin-left: 0px;
+    }
+    .sub-contenedor-encuesta {
+	    width: 100%;
+	    margin: 0 auto 0 35px;
+     }
+    .texto-encuesta {
+        font-size: 13px;
+        width: 80%;
+        padding: 10px 0 30px 0;
+        text-align: center;
+        float: none;
+    }
+}
+.hlCorreo {
+    color: #00accb !important;
+    font-family: 'Trebuchet MS',Arial,Helvetica,sans-serif;
+    font-size: 18px;
+    line-height: 20px;
+    text-align: center;
+    text-decoration: none;
+    padding: 0px 0px 0px 15px;
+    margin-right: 17px;
+    display: inline-block;
+    transform: translateY(-75%);
+}

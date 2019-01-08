@@ -1,0 +1,133 @@
+.panel-group {
+    margin-bottom: 20px;
+    display: block;
+}
+
+.panel-group .panel {
+    margin-bottom: 0px;
+    background-color: #fff;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+}
+
+.panel-default>.panel-heading {
+    color: #333;    
+    border-color: #ddd;
+    padding: 10px 15px;
+    background: url(../images/menu-lateral-flecha.jpg) 95% 50% no-repeat;
+    background-color: #EEE;
+    cursor: pointer;    
+}
+
+.panel-default>.panel-heading:hover {    
+    background: url(../images/menu-lateral-flecha-hover.jpg) 95% 50% no-repeat;
+    background-color: #00ADCB;
+}
+
+.panel-default>.panel-heading.active {    
+    background: url(../images/menu-lateral-flecha-active.jpg) 95% 50% no-repeat;
+    background-color: #00ADCB !important;
+}
+
+.panel-default>.panel-heading.lnk {
+    background: none;
+    background-color: #EEE;
+}
+
+.panel-default>.panel-heading.lnk:hover {
+    background: none;
+    background-color: #00ADCB;
+}
+
+.panel-title {
+    margin-top: 5px;
+    margin-bottom: 5px !important;
+    font-size: 16px;
+    color: inherit;    
+}
+
+.panel-default>.panel-heading .panel-title a {
+    
+    font-weight: normal;
+    font-size: 15px;
+    width: 100%;
+    display: block;
+    text-decoration: none;
+    color: #666;        
+}
+
+.panel-default>.panel-heading:hover .panel-title a, .panel-default>.panel-heading.active .panel-title a {
+    color: #FFF;
+} 
+
+.collapseout {
+    display: none;
+}
+
+.collapsein {
+    display: block;
+}
+
+.panel-body {
+    padding: 15px;
+}
+
+/*.submenu {
+    display: block;
+    list-style: none;
+}
+
+.submenu li a {
+    text-decoration: none;
+    color: #555;
+    font-size: 13px;
+    display: block;
+    padding: 13px 10px;
+}
+
+.submenu li a:hover {
+    color: rgb(67, 175, 255);
+}
+
+.submenu li > a:before {
+    content: '\2022\00a0';
+}
+
+.submenu li a.gris:hover {
+    background-color: #CCC;
+    color: #FFF;
+}*/
+
+/* NUEVOS */
+.submenu2 {
+    display: block;
+    list-style: none;
+}
+
+.submenu2 li a {
+    text-decoration: none;
+    color: #555;
+    font-size: 13px;
+    display: block;
+    padding: 13px 10px;
+}
+
+.submenu2 li a:hover {
+    color: rgb(67, 175, 255);
+}
+
+.submenu2 li > a:before {
+    content: '\2022\00a0';
+}
+
+.submenu2 li a.gris:hover {
+    background-color: #CCC;
+    color: #FFF;
+}
+
+/* FIN NUEVOS */
+.SMnuFondo{
+    background-color:#EEE;
+}

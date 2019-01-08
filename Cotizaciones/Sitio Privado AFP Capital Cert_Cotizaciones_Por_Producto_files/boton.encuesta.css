@@ -1,0 +1,65 @@
+﻿/*Boton Encuesta*/
+.cont_top {
+    width: 70px;
+    padding: 5px;
+    background: #03acca;
+    box-sizing: border-box;
+    margin: 0;
+    text-align: center;
+    font-weight: bold;
+    font-family: "Trebuchet MS";
+    color: #fff;
+    text-decoration: none !important;
+    vertical-align: middle;
+    /* display: table; */
+    position: fixed;
+    z-index: 99999;
+    top: 50%;
+    bottom: 50%;
+    right: 0;
+    left: auto;
+    height: 65px;
+}
+
+.cont_top:visited, .cont_top:active {
+    color: #fff;
+}
+
+.cont_top img {
+    display: inline-block;
+}
+
+.cont_top span {display: inline-block;background: url("../images/encuesfff.png") no-repeat scroll center 0 transparent;padding: 25px 0 0 0;font-size: 11px;}
+
+@media screen and (max-width: 760px){
+.cont_top {
+    width: 100%;
+    padding: 5px;
+    background: #f6ea1c;
+    box-sizing: border-box;
+    margin: 0 0 20px 0;
+    float: left;
+    text-align: center;
+    font-weight: bold;
+    font-family: "Trebuchet MS";
+    color: #053aa4;
+    text-decoration: none !important;
+    vertical-align: middle;
+    /* display: table; */
+    position: inherit;
+    height: inherit;
+    border: 0;
+}
+
+.cont_top:visited, .cont_top:active {
+    color: #053aa4;
+}
+
+.cont_top img {
+    display: inline-block;
+}
+
+.cont_top span {display: inline-block;background: url("../images/encuesta.png") no-repeat scroll 0 0 transparent;padding: 6px 0 6px 30px;font-size: 13px;}
+}
+
+/*FIN Boton Encuesta*/

@@ -1,0 +1,57 @@
+﻿var prm = Sys.WebForms.PageRequestManager.getInstance();
+
+prm.add_pageLoaded(function () {
+    InicializarBotonesEncuesta();
+});
+
+function ReplaceUrlEncuesta(url_encuesta) {
+    var aux_url_encuesta = url_encuesta;
+    if (aux_url_encuesta != null) {
+        if (aux_url_encuesta.length > 0) {
+            aux_url_encuesta = aux_url_encuesta.replace("{rut}", RutAfiliado);
+            aux_url_encuesta = aux_url_encuesta.replace("{urlorigen}", window.location.href);
+        }
+    }
+    return aux_url_encuesta;
+}
+
+function InicializarBotonesEncuesta() {
+    $(".boton_encuesta").click(function () {
+        $.fancybox({
+            type: 'iframe',
+            autoResize: true,
+            width: '768px',
+            height: '510px',
+            autoCenter: true,
+            tpl: {
+                closeBtn: '<a title="Cerrar" class="fancybox-item fancybox-close" href="javascript:;"></a>'
+            },
+            closeBtn: true,
+            nextClick: false,
+            arrows: false,
+            loop: false,
+            href: ReplaceUrlEncuesta($(this).attr("url_encuesta")),
+            helpers: {
+                overlay: {
+                    closeClick: true,
+                    locked: false,
+                    fixed: false
+                }
+            },
+            beforeLoad: function () {
+                $("header").addClass("no-fixed");
+                $("body").addClass("noscrolly");
+                $("#s4-workspace").addClass("noscrolly");
+                $("#s4-bodyContainer").addClass("noscrolly");
+                $("body").css("overflow", "hidden");
+            },
+            afterClose: function () {
+                $("header").removeClass("no-fixed");
+                $("body").removeClass("scrolly");
+                $("#s4-workspace").removeClass("noscrolly");
+                $("#s4-bodyContainer").removeClass("noscrolly");
+                $("body").css("overflow", "auto");
+            }
+        })
+    });
+};

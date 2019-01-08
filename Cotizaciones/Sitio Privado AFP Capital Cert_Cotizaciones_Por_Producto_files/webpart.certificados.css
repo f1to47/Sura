@@ -1,0 +1,1298 @@
+﻿.wpCertificados h3 {
+    border-bottom: 3px solid #e0e0e0;
+    /*background-color: #ddd;*/
+    margin-bottom: 10px;
+}
+
+.wpCertificados .descripcion {
+    border-bottom: 3px solid #e0e0e0;
+    /*background-color: #ddd;*/
+    font-family: 'Trebuchet MS',Helvetica,sans-serif;
+}
+
+.wpCertificados .recomendacionCartolaResumida {
+    /*border-bottom: 3px solid #e0e0e0;*/
+    margin-bottom: 10px;
+    font-family: 'Trebuchet MS',Helvetica,sans-serif;
+}
+
+.wpCertificados .descripcion h4 {
+    font-weight: bold;
+    font-size: 16px;
+    color: #636363;
+    /*margin-bottom: 15px;*/
+}
+
+.fila_gris {
+    background-color: #F0F0F0;
+    text-align: center;
+    font-family: 'Trebuchet MS',Arial,Helvetica;
+    font-size: 14px;
+    padding: 6px 0px;
+    border-bottom: 1px solid #CCC;
+    border-right: 1px solid #CCC;
+}
+
+.fila_blanca {
+    background-color: #FFF;
+    text-align: center;
+    font-family: 'Trebuchet MS',Arial,Helvetica;
+    font-size: 14px;
+    padding: 6px 0px;
+    border-bottom: 1px solid #CCC;
+    border-right: 1px solid #CCC;
+}
+
+.stilo_fila {
+    height: 25px;
+}
+
+.last_cotiza .stilo_cuenta {
+    font-family: 'Trebuchet MS',Arial,Helvetica;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: right;
+}
+
+.last_cotiza td {
+    color: #666 !important;
+}
+/**************************************************** CERTIFICADOS */
+/*******************************************************************/
+.wpCertificados .descripcion, .wpCertificados.wpDocumentoUnico, .wpCertificados .descipcion {
+    border-bottom: none !important;
+    font-size: 14px !important;
+    line-height: 20px;
+    /*text-align: center;*/
+}
+
+.wpCotizacionesPorPeriodo {
+    margin-top: -33px; /*NUEVO*/
+}
+
+.wpCertificados ul {
+    font-size: 14px;
+}
+
+.wpCertificados .last_cotiza > td, .wpCertificados .last_cotiza > th {
+    padding: 6px 10px !important;
+    text-align: left !important;
+}
+/* agrgar clase al td que tenga accion o link */
+.wpCertificados .last_cotiza td.link {
+    text-align: center !important;
+}
+
+.wpCertificados h3 {
+    border-bottom: none !important;
+    /*margin: 20px 0 15px;*/
+    margin: 0px 0 15px;
+    /*font-family: 'Trebuchet MS',Arial,Helvetica !important;
+    color: #00accb !important;
+    text-align: left; /*NUEVO*/
+}
+
+.wpCartolaResumida h3 {
+    margin: 0px;
+}
+
+.wpSeleccionPorPeriodo h3 {
+    border-bottom: none !important;
+    margin: 20px 0 15px;
+    font-family: 'Trebuchet MS',Arial,Helvetica !important;
+}
+
+.wpCertificados h4 {
+    font-size: 16px;
+}
+
+.wpCertificados a[class*=btn_] {
+    float: right;
+    /*margin: 7px;*/
+}
+
+/* agregar clase al link "descarguelo aqui" */
+.wpCertificados .note {
+    color: #696969 !important;
+    font-family: 'Trebuchet MS',Arial,Helvetica;
+    font-size: 14px !important;
+    text-align: center;
+    padding-bottom: 10px; /*NUEVO*/
+    /*
+	font-style:italic;
+	margin:20px 0;
+        */
+}
+
+.wpCertificados div[id*=Paso1] {
+    margin: 10px 0 15px;
+}
+
+    .wpCertificados div[id*=Paso1] > span, .wpCertificados div[id*=Datos] p > span {
+        font-size: 14px;
+        display: block;
+        margin-bottom: 10px;
+    }
+
+.wpCertificados div[id*=Principal] table {
+    width: 100%;
+}
+
+.mensajeria .mensaje.catError {
+    color: red !important;
+    padding: 10px 0 !important;
+}
+/* estails */
+.wpCertificados {
+    font-family: 'Trebuchet MS',Arial,Helvetica;
+}
+
+    .wpCertificados p {
+        font-size: 16px;
+        line-height: 21px;
+    }
+
+    .wpCertificados .textoDocumento {
+        background: white;
+        text-align: justify;
+        padding: 10px 0;
+        position: relative;
+        color: #696969;
+    }
+
+        .wpCertificados .textoDocumento p {
+            position: relative;
+            z-index: 10;
+        }
+
+    .wpCertificados .actions {
+        /*margin: 10px 0 20px;*/
+        margin: 10px 0 0px;
+        text-align: center;
+    }
+
+        .wpCertificados .actions:after {
+            content: '.';
+            display: block;
+            height: 1px;
+            clear: both;
+            visibility: hidden;
+        }
+
+
+        .wpCertificados .actions .btn_Volver {
+            color: #00b1ca;
+            font-size: 18px;
+            position: relative;
+            text-decoration: underline;
+            top: -21px;
+        }
+
+        .wpCertificados .actions a[class*="btn_"] {
+            display: inline-block;
+            float: none;
+        }
+
+        .wpCertificados .actions .options {
+            /*
+	border-bottom:1px solid #dbdbdb;
+        */
+            font-size: 14px;
+            padding: 10px;
+            font-family: 'Trebuchet MS',Arial,Helvetica;
+            font-weight: bold;
+            color: #696969 !important;
+            /*background:#f1f1f1;*/
+            text-align: left; /* agregar linea */
+        }
+
+    .wpCertificados ul {
+        margin: 20px 0 20px 10px;
+    }
+
+    .wpCertificados table th {
+        font-size: 12px !important;
+        padding: 3px 2px !important;
+    }
+
+    .wpCertificados table.last_cotiza td {
+        font-size: 12px !important;
+        padding: 6px 0px !important;
+    }
+
+    .wpCertificados table.last_cotiza td {
+        vertical-align: middle;
+        /*white-space:nowrap;*/
+    }
+
+    .wpCertificados table th {
+        text-align: center;
+    }
+
+    .wpCertificados table.last_cotiza tr th {
+        border-bottom: 1px solid #ccc;
+        font-family: 'Trebuchet MS',Arial,Helvetica;
+        font-weight: bold;
+    }
+
+    .wpCertificados table td {
+        font-family: 'Trebuchet MS',Arial,Helvetica;
+        font-weight: normal;
+        color: #696969 !important;
+    }
+
+    .wpCertificados table {
+        margin: 30px 0 2px;
+    }
+
+    .wpCertificados .textoTotal {
+        font-size: 11px;
+        font-weight: bold;
+        float: left;
+        width: 100%;
+    }
+
+/* tabla certificado de antecedentes*/
+.detalleProductoSmartphone {
+    display: inline-block;
+}
+
+    .detalleProductoSmartphone .tablaProducto > tbody > tr > td:nth-child(1) {
+        width: 35%;
+    }
+
+    .detalleProductoSmartphone .tablaProducto > tbody > tr > td:nth-child(2) {
+        min-width: 10%;
+    }
+
+    .detalleProductoSmartphone .tablaProducto > tbody > tr > td:nth-child(3) {
+        min-width: 10%;
+    }
+
+    .detalleProductoSmartphone .tablaProducto > tbody > tr > td:nth-child(5) {
+        width: 13%;
+    }
+
+    .detalleProductoSmartphone .tablaProducto > tbody > tr > td:nth-child(6) {
+        width: 10%;
+    }
+
+    .detalleProductoSmartphone .tablaProducto > tbody > tr > td:nth-child(7) {
+        width: 10%;
+    }
+
+/* tabla certificado por productos*/
+.porPeriodo .last_cotiza .tdPeriodo {
+    width: 12%;
+}
+
+.porPeriodo .last_cotiza .tdTipoMovimiento {
+    width: 17%;
+}
+
+.porPeriodo .last_cotiza .tdTipoFondo {
+    width: 8%;
+}
+
+.porPeriodo .last_cotiza .tdFechaPago {
+    width: 14%;
+}
+
+.porPeriodo .last_cotiza .tdMontoPesos {
+    width: 15%;
+}
+
+.porPeriodo .last_cotiza .tdMontoCuotas {
+    width: 15%;
+}
+
+.porPeriodo .last_cotiza .tdRutPagador {
+    width: 17%;
+}
+
+.porPeriodo .last_cotiza .tdFondo {
+    width: 10%;
+}
+/* caracteristicas genericas*/
+
+.detalleProducto .tablaProducto > tbody > tr > td {
+    vertical-align: middle;
+}
+/* compacta menu lateral... */
+@media screen and (max-width: 960px) {
+
+    .contenido {
+        font-size: 15px;
+        font-family: 'Trebuchet MS',Helvetica,sans-serif;
+    }
+
+    ul.side_menu li {
+        width: 90% !important;
+    }
+
+        ul.side_menu li a {
+            font-size: 12px !important;
+            width: 100% !important;
+        }
+
+        ul.side_menu li.side_active a {
+            width: 100% !important;
+        }
+
+        ul.side_menu li a {
+            padding: 8px 3px;
+        }
+
+    .conts_int.cont_der {
+        padding-left: 0px !important;
+        width: 460px !important;
+        background: none !important;
+    }
+
+    .wpCertificados table.last_cotiza td, .wpCertificados table th {
+        font-size: 11px !important;
+        padding: 3px 2px !important;
+    }
+
+    .combo_cartola .cont_btn a[class*=btn_] {
+        /*margin-left: 80px !important;*/
+    }
+
+    .div_contenido_amarillo {
+        margin-left: 10px !important;
+    }
+
+    .txtMail {
+        margin-right: -2px !important;
+    }
+
+    .txtMail2 {
+        margin-right: -2px !important;
+    }
+
+    .txtCuerpoCorreo {
+        width: 90px !important;
+    }
+
+    .txtCuerpoDominio{
+        width: 90px !important;
+    }
+
+    .txtLink {
+        margin-right: 0px !important;
+    }
+
+    .div_contenido_amarillo_mail {
+        /*text-align: left !important;*/
+    }
+
+    .div_contenido_amarillo_enviar {
+        text-align: right !important;
+    }
+}
+
+@media screen and (max-width: 760px) {
+
+    .contenido {
+        font-size: 14px;
+        font-family: 'Trebuchet MS',Helvetica,sans-serif;
+    }
+
+    .wpCertificados .detalleProducto {
+        width: 300px !important;
+        overflow: auto !important;
+        max-height: 557px;
+        margin-bottom: 30px;
+    }
+
+        .wpCertificados .detalleProducto.porPeriodo {
+            max-height: 845px;
+            margin-top: 20px;
+        }
+
+    .conts_int.cont_der {
+        width: 300px !important;
+    }
+
+    .wpCertificados .textoDocumento p {
+        font-size: 12px !important;
+    }
+
+    .wpCertificados .note {
+        font-size: 12px !important;
+    }
+
+    .productos_row > div {
+        width: 300px !important;
+        overflow: hidden !important;
+    }
+
+    .wpCertificados .productos_row .swipe-to-right {
+        display: block;
+        content: '.';
+        color: white;
+        width: 100%;
+        height: 55px;
+        background: url(../images/swipe-to-right.jpg) center center no-repeat;
+    }
+
+    .wpCertificados table.last_cotiza td, .wpCertificados table th {
+        font-size: 10px !important;
+        padding: 4px 10px !important;
+    }
+
+    .certificados_options select {
+        font-size: 12px !important;
+    }
+
+    .wpCertificados .detalleProducto {
+        width: 300px;
+        overflow: auto;
+    }
+
+    .tablaRiesgos {
+        width: 100%;
+    }
+
+        .tablaRiesgos thead th, .tablaRiesgos tbody td {
+            padding-left: 3px !important;
+            padding-right: 3px !important;
+        }
+
+        .tablaRiesgos tbody td {
+            font-size: 10px !important;
+        }
+
+        .tablaRiesgos thead th {
+            font-size: 12px !important;
+        }
+}
+
+.certificados_options {
+    margin: 0 0 20px;
+    font-weight: bold;
+    padding: 10px;
+    background: whitesmoke;
+}
+
+    .certificados_options label {
+        padding-right: 10px;
+        font-size: 14px;
+    }
+
+    .certificados_options select {
+        font-size: 14px;
+        text-indent: 0 !important;
+    }
+
+.cont_der._full {
+    background: none !important;
+    width: 100% !important;
+    padding: 0;
+}
+
+.pagina_table_prod {
+    text-align: left !important;
+}
+
+.pagina_est_sol {
+    text-align: right !important;
+}
+/* tabla riesgos */
+.tablaRiesgos thead th, .tablaRiesgos tbody td {
+    padding: 5px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 12px;
+    border: 1px solid #ccc;
+}
+
+.tablaRiesgos {
+    border-collapse: collapse;
+    background: whitesmoke;
+}
+
+    .tablaRiesgos thead th {
+        font-size: 16px;
+        font-weight: bold;
+        background: aliceblue;
+        padding: 10px 0 !important;
+    }
+/* sindatos tabla */
+.warn {
+    text-align: left;
+    /*
+	background:#fcf8e3;
+        */
+    display: block;
+    padding: 10px;
+    font-size: 14px;
+    color: #ff0000;
+}
+
+.mensajeNoTieneDoc {
+    text-align: left;
+    display: block;
+    padding: 10px;
+    font-size: 14px;
+    color: #ff0000;
+}
+
+.errorCartolaDetallada {
+    text-align: left;
+    display: block;
+    padding: 15px;
+    font-size: 15px;
+    color: #ff0000;
+}
+
+.AfterH2 h2 {
+    color: #999999 !important;
+    font-size: 24px !important;
+    line-height: 22px !important;
+}
+
+#pdf .box-btn .btnIcon-pdf {
+    background: url("../images/icon-pdf.png") no-repeat left top;
+}
+
+#pdf .box-btn .btnIcon-mail {
+    background: url("../images/icon-mail.png") no-repeat left top;
+}
+
+#pdf .box-btn {
+    display: inline-block;
+    margin: 1em 0;
+    text-align: right;
+    width: 100%;
+}
+
+    #pdf .box-btn [class*="btnIcon-"] {
+        color: #545454;
+        display: inline-block;
+        font-size: 0.6em;
+        margin-left: 1em;
+        margin-right: 0.5em;
+        padding-left: 20px;
+        text-decoration: underline;
+        min-height: 17px;
+        transition: color 0.5s;
+    }
+
+        #pdf .box-btn [class*="btnIcon-"]:hover {
+            color: #37ACD2;
+        }
+
+.descripcion {
+    font-size: 16px !important;
+    color: #666 !important;
+}
+
+.ms-webpart-titleText span {
+    font-family: "trebuchet ms", arial, sans-serif;
+    color: #696969 !important;
+    padding-left: 0 !important;
+}
+
+.wpCertificados table td {
+    font-size: 14px !important;
+    font-family: 'Trebuchet MS',Arial,Helvetica;
+    color: #696969 !important;
+}
+
+.wrap {
+    margin-bottom: 15px;
+}
+
+    .wrap:after {
+        content: ".";
+        visibility: hidden;
+        height: 1px;
+        display: block;
+        clear: both;
+    }
+
+    .wrap select {
+        float: right;
+        border-color: #ccc !important;
+        padding: 3px 20px 3px 5px !important;
+        -webkit-appearance: none;
+        background: url("../images/down_select.png") right top no-repeat;
+        background-image: none\0 !important;
+        padding-right: 3px\0 !important;
+    }
+
+    .wrap label {
+        line-height: 30px;
+    }
+
+[id*=lnkVer] {
+    float: right;
+    margin-right: 3px !important;
+}
+
+.contenedorTabla {
+    font-family: "trebuchet ms", arial, sans-serif;
+}
+
+.descripcion p {
+    font-size: 16px !important;
+}
+
+.text-title {
+    font-size: 16px !important;
+    color: #666;
+}
+
+.text-info-pie {
+    font-size: 14px;
+    font-weight: normal;
+}
+
+h3.warn {
+    font-family: "trebuchet ms", arial, sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+p.text-info {
+    padding-bottom: 15px;
+    font-size: 14px !important;
+}
+
+.recomendacionCartolaResumida .warning-box {
+    margin: 20px 0;
+    background: #fcf8e3;
+    border: 1px solid #f39c12;
+    padding: 10px;
+}
+
+    .recomendacionCartolaResumida .warning-box p {
+        padding-bottom: 15px;
+    }
+
+    .recomendacionCartolaResumida .warning-box ul {
+        list-style: disc;
+        margin: 0 0 0 17px;
+    }
+
+    .recomendacionCartolaResumida .warning-box li {
+        padding-bottom: 10px;
+    }
+
+.mensaje {
+    font-family: "Trebuchet ms", arial, sans-serif;
+    font-size: 14px;
+}
+
+.caluga-cartola {
+    margin: 20px 0;
+}
+
+.ms-webpart-zone {
+    float: left !important;
+}
+
+.wpCertificados table.table100 {
+    width: 100% !important;
+}
+
+.wpCertificados table.last_cotiza tr td:nth-last-child(1), .wpCertificados table.last_cotiza tr th:nth-last-child(1) {
+    border-right: none;
+}
+
+.wpCertificados tr.fila_gris td:nth-last-child(1) {
+    border-right: 1px solid #f0f0f0 !important;
+}
+
+.wpCertificados span.titulo {
+    font-size: 12px;
+    font-weight: bold;
+    font-family: "Trebuchet MS", Arial, sans-serif;
+}
+
+h3, .ms-webpart-titleText span {
+    font-family: "Trebuchet MS", Arial, sans-serif;
+}
+
+.detalleCert {
+    font-family: "Trebuchet MS", Arial, sans-serif;
+    font-size: 14px;
+    color: #696969;
+}
+
+    .detalleCert [id*=lnkVer] {
+        float: none;
+    }
+
+.wpCertificados [id*=gvDocumentos] th, .wpCertificados [id*=gvDocumentos] td span, .wpCertificados [id*=gvDocumentos] td, .wpCertificados [id*=gvDocumentos] td a, .note {
+    font-size: 14px !important;
+}
+
+    .wpCertificados [id*=gvDocumentos] td a, .note a, .text-info-pie a {
+        color: #00accb !important;
+    }
+
+.wpCertificados [id*=gvDocumentos] th, .wpCertificados [id*=gvDocumentos] td {
+    padding-top: 4px !important;
+    padding-bottom: 4px !important;
+}
+
+.wpCertificados [id*=gvDocumentos] td {
+    color: #666 !important;
+}
+
+h2.ms-webpart-titleText span {
+    color: #00accb !important;
+}
+
+select {
+    border-color: #ccc !important;
+    padding: 3px 20px 3px 5px !important;
+    -webkit-appearance: none;
+    background: url("../images/down_select.png") right top no-repeat;
+    height: 32px !important;
+    background-image: none\0 !important;
+    padding-right: 3px\0 !important;
+}
+
+.pagina_table_prod table {
+    float: right;
+    margin-top: 5px !important;
+}
+
+table.last_cotiza tr.pagina_table_prod td {
+    padding-left: 10px !important;
+}
+
+.btn_amarillo {
+    font-weight: bold;
+}
+
+.contenido {
+    font-size: 15px;
+    font-family: 'Trebuchet MS',Helvetica,sans-serif;
+}
+
+.combo_cartola select {
+    -webkit-appearance: none;
+    appearance: none;
+    background: url("../images/down_select.png") no-repeat right top #FFFFFF;
+    background-image: none\0 !important;
+    padding-right: 3px\0 !important;
+    border-color: #ccc !important;
+    height: 32px !important;
+    height: 32px\9 !important;
+    float: right;
+    /*margin: 10px 0 25px !important;*/
+    margin: 10px 0 10px !important;
+    font-size: 14px;
+    color: #666;
+    padding: 3px;
+    padding-right: 18px;
+    padding-right: 3px\9 !important;
+    padding-right: 0\0 !important;
+    padding-top: 0\9 !important;
+    padding-bottom: 0\9 !important;
+    height: 32px\0 !important;
+    margin-top: -5px;
+    position: relative;
+    top: -15px;
+    /*
+            -webkit-appearance: none;
+	        appearance: none;
+           
+            float:right;
+            border-color:#ccc!important;
+			padding:3px 20px 3px 5px!important;			
+			background:url("../images/down_select.png") right top no-repeat #FFFFFF;
+			background-image:none\0 !important;
+			padding-right:3px\0 !important;
+            height:32px!important;
+            height:32px\9 !important;
+                */
+}
+
+.combo_cartola .cont_btn a[class*=btn_] {
+    float: none;
+    display: inline-block;
+    /*margin-left: 150px;*/
+}
+
+.combo_cartola a[class*=btn_] {
+    clear: both;
+    margin-right: 0 !important;
+}
+
+.clase_ddl_periodos {
+    padding-left: 20px !important;
+    padding-right: 40px !important;
+    font-size: 12px;
+}
+
+.wpCertificados .estilo_certificado_periodo_p1 > span {
+    display: inline !important;
+}
+
+.wpCertificados .estilo_certificado_periodo_p1 > select {
+    float: right;
+    margin-top: -5px;
+}
+
+.wpCertificados .estilo_certificado_periodo_p1 .boton_amarillo_cont {
+    text-align: center;
+    margin-top: 10px;
+    background-color: rgb(242,242,242);
+}
+
+.wpCertificados .boton_amarillo_cont [class*=btn_] {
+    float: none;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.wpCertificados .elegirPeriodo td {
+    padding: 5px 10px 0 5px;
+}
+
+.wpCertificados .elegirPeriodo select {
+    height: 32px !important;
+    padding-left: 20px !important;
+    padding-left: 0\9 !important;
+    padding-right: 20px !important;
+    padding-right: 0\9 !important;
+    font-size: 12px;
+    text-align: center;
+    height: 32px\0 !important;
+}
+
+.div_contenido_amarillo {
+    /*margin-left: 148px;*/
+    /*text-align: right;*/
+    text-align: center;
+}
+
+.div_contenido_amarillo_mail {
+    font-family: "Trebuchet MS",helvetica;
+    /*text-align: right;*/
+    font-size: 16px;
+    /*margin-top: 13px;*/
+}
+
+.div_contenido_amarillo_msg {
+    background: #FFFFA3;
+    border: 1px solid #F1D031;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    width: 90%;
+    margin: auto;
+}
+
+.div_contenido_cambiar_mail {
+    /*margin-top: 25px;*/
+    /*margin-top: 20px;*/
+    margin-left: 20px;
+    text-align: left !important;
+    color: #666 !important;
+}
+
+.cont_btn {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.hlCorreo {
+    color: #00accb !important;
+    font-family: 'Trebuchet MS',Arial,Helvetica,sans-serif;
+    font-size: 18px;
+    line-height: 20px;
+    text-align: center;
+    text-decoration: none;
+    padding: 0px 0px 0px 15px;
+    margin-right: 17px;
+    display: inline-block;
+    transform: translateY(-75%);
+}
+
+.txtMail {
+    /*margin-right: 10px;*/
+    font-weight: bold;
+    display: inline-block;
+    transform: translateY(-100%);
+}
+
+.txtMail2 {
+    /*margin-right: 175px;*/
+    font-weight: bold;
+    display: inline-block;
+    transform: translateY(-70%);
+}
+
+.txtCuerpoCorreo {
+    width: 160px;
+    display: inline-block;
+    transform: translateY(-60%);
+}
+
+.txtCuerpoDominio {
+    width: 120px;
+    display: inline-block;
+    transform: translateY(-60%);
+}
+
+.div_contenido_texto_mail {
+    font-weight: bold;
+    font-size: 15px;
+    color: #666 !important;
+    margin-top: 11px;
+}
+
+.boton_amarillo_cont {
+    text-align: center;
+    margin-top: 10px;
+    background-color: rgb(242,242,242);
+}
+
+/*.div_contenido_amarillo_enviar {
+    text-align: right !important;
+    display: none;
+}*/
+
+.txtLink {
+    margin-right: 85px;
+    font-size: 14px;
+}
+
+.txtMsg {
+    background-image: url("/_layouts/15/Sura.Privado/images/ico_check_verde.png");
+    background-repeat:  no-repeat;
+    background-position: left top;
+    padding: 0px 0 5px 40px!important;
+    font-size: 21px !important;
+    color: #999;
+    font-weight: normal !important;
+}
+
+a.btn-amarillo, a.btn-amarillo:visited {
+    color: rgb(44, 89, 121);
+    display: inline-block;
+    font-family: "Trebuchet MS",Arial,Helvetica,sans-serif;
+    font-size: 18px;
+    line-height: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 13px;
+}
+
+    a.btn-amarillo:hover {
+        color: rgb(255, 255, 255);
+    }
+
+        a.btn-amarillo:hover span.left_am_mail {
+            background-position: left top;
+        }
+
+        a.btn-amarillo:hover span.central_am_mail {
+            background-position: left top;
+        }
+
+        a.btn-amarillo:hover span.right_am_mail {
+            background-position: left top;
+        }
+
+span.left_am_mail {
+    background: url("/_layouts/15/Sura.Privado/images/left_celeste.png");
+    background-position: left bottom;
+    background-repeat: no-repeat;
+    float: left;
+    height: 41px;
+    width: 4px;
+}
+
+span.central_am_mail {
+    /*background: transparent url("/_layouts/15/Sura.Privado/images/btn_center.png") repeat-x scroll left top;*/
+    background: transparent url("/_layouts/15/Sura.Privado/images/center_celeste.png");
+    background-position: left bottom;
+    background-repeat: repeat-x;
+    float: left;
+    font-size: 18px;
+    height: 21px;
+    /*padding: 9px 14px 11px 6px;*/
+    padding: 9px 0px 11px 6px;
+}
+
+span.right_am_mail {
+    background: url("/_layouts/15/Sura.Privado/images/right_celeste_arrow.png") no-repeat scroll left top;
+    background-position: left bottom;
+    background-repeat: no-repeat;
+    float: left;
+    height: 41px;
+    width: 32px !important;
+}
+
+.tabla-periodo {
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    font-size: 12px;
+}
+
+    .tabla-periodo td {
+        border: 1px solid #ccc;
+        border-collapse: collapse;
+        padding: 5px;
+        font-size: 12px;
+    }
+
+.header {
+    z-index: 1;
+}
+
+.sinDatos {
+    font-family: "Trebuchet MS", Arial, sans-serif;
+}
+
+.classRed {
+    color: red !important;
+}
+
+.nodata table td {
+    border: none !important;
+}
+
+@media only screen and (max-width : 760px) {
+
+    .contenido {
+        font-size: 13px;
+        font-family: 'Trebuchet MS',Helvetica,sans-serif;
+    }
+
+    .combo_cartola select {
+        display: block !important;
+        width: 100%;
+        top: 5px !important;
+    }
+
+    .wpCertificados .estilo_certificado_periodo_p1 > span {
+        display: grid;
+        display: block !important;
+    }
+
+    .wpCertificados p {
+        font-size: 14px;
+        line-height: 17px;
+    }
+
+    .wpCertificados table {
+        margin: 30px 0 2px;
+        display: inline-block;
+    }
+
+    .detalleProductoSmartphone table {
+        margin: 10px 0 10px !important;
+    }
+
+    .detalleProductoSmartphone {
+        margin-top: 25px;
+    }
+
+    /*.div_contenido_amarillo {
+        text-align: left;
+        margin-left: 0px !important;
+    }*/
+
+    .hlCorreo {
+        margin-right: 0px !important;
+        padding: 0;
+        margin-top: 16px;
+    }
+
+    /*.btn_hlCorreo {
+        margin-right: 0px !important;
+    }*/
+
+    .txtMail {
+        /*display: block;*/
+        margin-bottom: 7px;
+    }
+
+    .txtMail2 {
+        margin-right: 7px;
+    }  
+      
+    .combo_cartola .cont_btn a[class*=btn_] {
+        margin-left: 5px !important;
+    }
+
+    .wpCotizacionesPorPeriodo {
+        margin-top: -24px; /*NUEVO*/
+    }
+
+    a.btn-amarillo, a.btn-amarillo:visited {
+        margin-top: 0px;
+        margin-left: 25%;
+    }
+
+    .div_contenido_amarillo_mail {
+        margin-top: 25px;
+        text-align: left !important;
+    }
+
+    .txtMsg {
+        background-image: url(/_layouts/15/Sura.Privado/images/ico_check_verde.png);
+        background-repeat: no-repeat;
+        background-position: left top;
+        padding: 0px 0 7px 40px!important;
+        font-size: 17px !important;
+        color: #999;
+        font-weight: normal !important;
+    }
+
+    .div_contenido_amarillo_msg {
+        background: #FFFFA3;
+        border: 1px solid #F1D031;
+        text-align: center;
+        padding: 10px 10px 15px 10px;
+        /*margin-bottom: 10px !important;*/
+        position: relative;
+        width: 90%;
+        margin: auto;
+    }
+
+    /*.div_contenido_amarillo_enviar {
+        display: inline-block;
+    }*/
+}
+
+#filtros {
+    display: none;
+    margin-left: 267px;
+    float: right;
+}
+
+.padLeft20 {
+    padding-left: 20px;
+}
+
+.padTop10 {
+    padding-top: 10px;
+}
+
+.ddlOpciones {
+    width: 200px;
+}
+
+.ddlMes {
+    width: 110Px;
+}
+
+.ddlAgno {
+    width: 69px;
+}
+
+.textAlignCenter {
+    text-align: center;
+}
+
+.displayNone {
+    display: none !important;
+}
+
+.Info-Window {
+    padding: 15px 20px 15px 20px;
+    background-color: #FFFFA3;
+    border: 1px solid #F1D031;
+    text-align: left !important;
+}
+
+.marginTop10 {
+    margin-top: 10px;
+}
+
+.marginTop25 {
+    margin-top: 25px;
+}
+
+.marginTop20 {
+    margin-top: 20px;
+}
+
+.marginTop30 {
+    margin-top: 30px;
+}
+
+.marginBottom10 {
+    margin-bottom: 10px;
+}
+
+.marginLeft5 {
+    margin-left: 5px;
+}
+
+.marginLeft10 {
+    margin-left: 10px;
+}
+
+.marginRight10 {
+    margin-right: 10px;
+}
+
+.textoAzul {
+    color: #005DAA;
+}
+
+.Trebuchet {
+    font-family: "Trebuchet MS", helvetica;
+}
+
+/*.s4-wpcell-plain {
+    display: inline !important;
+}*/
+.divTable {
+    display: table;
+    width: 100%;
+    background-color: #F1E73C;
+    border-spacing: 10px; /*cellspacing:poor IE support for  this*/
+    /* border-collapse:separate;*/
+}
+
+.divRow {
+    display: table-row;
+    text-align: center;
+}
+
+.divCellIzq {
+    float: left; /*fix for  buggy browsers*/
+    width: 15%;
+    display: table-column;
+    margin-top: 10px;
+}
+
+.divCellCenter {
+    float: left; /*fix for  buggy browsers*/
+    width: 65%;
+    text-align: center;
+    color: #005CAA !important;
+    display: table-column;
+    margin-bottom: 10px;
+    font-family: "Trebuchet MS", helvetica;
+    font-size: small;
+}
+
+    .divCellCenter p {
+        margin-top: 10px;
+        margin-bottom: 5px;
+    }
+
+.divCellDer {
+    float: right; /*fix for  buggy browsers*/
+    width: 20%;
+    display: table-column;
+    margin-top: 25px;
+}
+
+#TablaContenedoraNuevoLayoutOficio30149 {
+    width: 55%;
+    margin-left: auto;
+    margin-right: auto;
+}
